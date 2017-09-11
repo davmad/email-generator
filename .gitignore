@@ -1,0 +1,24 @@
+# IDEs and editors
+*.launch
+.settings/
+.idea/
+.vscode/*
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Application log
+error_log
+
+Thumbs.db
+
+.DS_Store
+node_modules
+.sass-cache
+.secret
+*.css.map
+secrets.json
+dist/*
+preview/css
+src/css/*.css
