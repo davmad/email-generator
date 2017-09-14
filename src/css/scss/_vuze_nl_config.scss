@@ -2,40 +2,40 @@
     CONFIGURE YOUR VARIABLES
 ------------------------------------- */
 
-$padding: 30px; // For consistent padding
-$grey: #f6f6f6; // Background color
-$width: 1007px; // Width of the content area
-$br: 3px; // Border radius
-$btn-br: 5px; // Border radius
-$primary-color: #348eda; // Primary color for buttons and links
-$font-color: #111111; // Default font color
+$width: 987px; // Width of the content area
+$table-border-spacing: 0;
+$top-section-height: 888px; // Width of the content area
+$bottom-section-height: 819px; // Width of the content area
+$main-bg-color: #fdfdfd;
+$main-cell-width: 100%;
+$main-cell-height: 100%;
+
+$top-bg-image-url: url(https://gallery.mailchimp.com/8d254e454d3006375c9fae485/images/f5dca06c-1728-4d19-a7b6-4d5bb9a2ae4d.jpg);
+$bottom-bg-image-url: url(https://gallery.mailchimp.com/8d254e454d3006375c9fae485/images/abac8132-b09b-42dd-8e17-1d6107f70726.jpg);
+
+$header-logo-image-url: url(https://gallery.mailchimp.com/8d254e454d3006375c9fae485/images/97f53283-1511-4d2a-a80a-221c188ab994.png);
+$footer-logo-image-url: url(https://gallery.mailchimp.com/8d254e454d3006375c9fae485/images/81dc7832-1a51-410d-8a11-5eb1e2f1c10b.png);
+
+$content-shadow-image-url: url(https://gallery.mailchimp.com/8d254e454d3006375c9fae485/images/104d86c2-ebdb-41f4-95c1-6fc931bc1f03.png);
+$content-button-image-url: url(https://gallery.mailchimp.com/8d254e454d3006375c9fae485/images/8cf6e450-6025-43c4-945a-24a7e4d9efb9.png);
+
+$footer-social-facebook-image-url: url(https://gallery.mailchimp.com/8d254e454d3006375c9fae485/images/728290d3-643a-4f42-b768-b49f1bd6518b.png);
+$footer-social-twitter-image-url: url(https://gallery.mailchimp.com/8d254e454d3006375c9fae485/images/4df04f67-68d4-463b-95bc-1c78be6c2e90.png);
+$footer-social-youtube-image-url: url(https://gallery.mailchimp.com/8d254e454d3006375c9fae485/images/b256ef98-4442-48e7-ba43-e32c3d97baf6.png);
+$footer-social-gplus-image-url: url(https://gallery.mailchimp.com/8d254e454d3006375c9fae485/images/b11bc4f7-8b79-4440-b7e3-74fae4277557.png);
+$footer-social-pinterest-image-url: url(https://gallery.mailchimp.com/8d254e454d3006375c9fae485/images/ecfdcc1a-79f0-45ab-b836-4f9c866a38f6.png);
 
 // Typography
 // -------
+$main-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$main-font-size: 14px;
+$main-line-height: 1.6em;
 
-$body-font-family:          "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !default;
-$body-font-weight:          400 !default;
-$body-font-size:            14px !default;
-$body-font-color:           #555 !default;
-$body-line-height:          1.6 !default;
 
 // Notices
 // -------
 
-$notice-color-info:         #3d88ce !default;
-$notice-color-success:      #81ad22 !default;
-$notice-color-warning:      #c6a121 !default;
-$notice-color-danger:       #be2c2c !default;
-
-$notice-border-radius:      6px !default;
-$notice-font-size:          $body-font-size !default;
-$notice-font-weight:        $body-font-weight !default;
-$notice-line-height:        $body-line-height !default;
-$notice-padding:            8px 12px !default;
-$notice-margin:             10px 0 !default;
 
 // Dividers
 // --------
 
-$divider-margin:			20px 0 !default;
-$divider-color:				#ccc !default;

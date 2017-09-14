@@ -1,12 +1,40 @@
 /* -------------------------------------
     GLOBAL RESETS
 ------------------------------------- */
+html,
+body,
+table,
+thead,
+tbody,
+tr,
+td,
+div,
+p,
+span,
+a {
+  border: none;
+  margin:  0;
+  padding: 0;
+
+}
+
+body {
+  font-family: $main-font-family;
+  -webkit-font-smoothing: antialiased;
+  font-size: $main-font-size;
+  line-height: $main-line-height;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
 
 table,
 td,
 div,
 a {
+  border-spacing: $table-border-spacing;
   box-sizing: border-box;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
 }
 
 img {
@@ -14,43 +42,13 @@ img {
   max-width: 100%;
 }
 
-body {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-size: 14px;
-  height: 100% !important;
-  line-height: 1.6em;
-  margin: 0;
-  padding: 0;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  width: 100% !important;
+.body {
+  margin: 0 auto !important; /* makes it centered */
 }
 
-// Let's make sure all tables have defaults
-table {
-  border-collapse: separate !important;
-  mso-table-lspace: 0pt;
-  mso-table-rspace: 0pt;
-  width: 100%;
-
-  td {
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 14px;
-    vertical-align: top;
-  }
+.main {
+  width: auto;
+  margin: 0 auto !important;
+  background-color: $main-bg-color;
 }
 
-// External class fix for Outlook.com
-.ExternalClass {
-  width: 100%;
-}
-
-.ExternalClass,
-.ExternalClass p,
-.ExternalClass span,
-.ExternalClass font,
-.ExternalClass td,
-.ExternalClass div {
-  line-height: 100%;
-}
